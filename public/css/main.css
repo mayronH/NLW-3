@@ -1,0 +1,22 @@
+/* Configuração global de todas as caixas, sem margens, sem paddings e o tamanho da caixa é a soma do width+margin+padding */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    color: #fff;
+    background: #EBF2F5;
+}
+
+/* Configuração global do tamanho da font para 62.5% de 16px = 10px */
+:root{
+    font-size: 62.5%;
+}
+
+body, input, button, textarea {
+    /* font-weight font-size line-height font-family */
+     font: 400 1.8rem/1 'Nunito', sans-serif;
+}
